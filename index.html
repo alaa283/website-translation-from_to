@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Translate</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./fontawesome-free-5.15.4-web/css/all.min.css"/>
+</head>
+<body>
+    <div class="container">
+            <ul class="controls">
+                <li class="row from">
+                    <select class="select"></select>
+                </li>
+                <li class="exchange">
+                    <i class="fas fa-exchange-alt"></i>
+                </li>
+                <li class="row to">
+                <select class="select"></select>
+                </li>
+            </ul>
+            <div class="row">
+                <div class="col-lg-6">
+                    <textarea spellcheck="false" class="form-control from-text" placeholder="Enter text" rows="5"></textarea>
+                    <div class="d-flex justify-content-around my-2 controls">
+                        <i id="from" class="fas fa-volume-up voice_from"></i>
+                        <i id="from" class="fas fa-copy copy_from"></i>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <textarea spellcheck="false" readonly disabled class="form-control to-text" placeholder="Translation" rows="5"></textarea>
+                    <div class="d-flex justify-content-around my-2 controls">
+                        <i id="from" class="fas fa-volume-up voice_to"></i>
+                        <i id="from" class="fas fa-copy copy_to"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-center">
+                <button type="button" class="btn btn-secondary btn-lg btn_tran my-5">Large button</button>
+            </div>
+
+            <h6 align="left" id="definition"></h6>
+    
+            <h6 align="left"  id="example"></h6>
+    </div>
+</body>
+<!-- <script src="./JavaScript/script.js"></script> -->
+<script src="./JavaScript/js_encrypt.js"></script>
+<script src="https://code.responsivevoice.org/responsivevoice.js?key=L1YrUDS2"></script>
+<script src="./JavaScript/bootstrapJS1.js"></script>
+<script src="./JavaScript/bootstrapJS2.js"></script>
+<script src="./JavaScript/bootstrapJQuery1.js"></script>
+<script src="./JavaScript/bootstrapJQuery2.js"></script>
+<script src="./JavaScript/bootstrapJQuery3.js"></script>
+</html>
